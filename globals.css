@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #6d28d9;
+  --color--primary-light: #8b5cf6;
+  --color--secondary: #10b981;
+  --color--accent: #f59e0b;
+  --color--background: #121212;
+  --color--superficie: #1e1e1e;
+  --color--superficie2: #2d2d2d;
+  --font--title: "Inter Bold";
+  --font--text: "Inter Regular";
+  --font--special--text: "Inter Medium";
+}
