@@ -1,0 +1,64 @@
+@import url(./globals.css);
+
+main p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+.card2 {
+    background-color: var(--color--superficie2);
+    padding: 0 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card2 p {
+    color: var(--letrasclaritas);
+    line-height: 1;
+}
+
+.PartesEquipo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.persona p {
+    color: var(--letrasclaritas);
+}
+
+.icon {
+    background-color: var(--color--superficie);
+    border: 2px solid var(--color-primary);
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+}
+
+.Tecnologias {
+    display: flex;
+    gap: 10px;
+}
+
+.tech {
+    background-color: var(--color--superficie2);
+    height: 50px;
+    width: 50px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Solicitar {
+    align-self: flex-start;
+    margin-top: 20px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color--primary-light));
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--letrasclaritas);
+}

@@ -1,0 +1,35 @@
+@import url(./globals.css);
+
+header {
+    height: 60px;
+    background: var(--color--superficie2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6px;
+    border-bottom: 1px solid var(--color--superficie);
+}
+
+.logo {
+    height: 40px;
+    width: 60px;
+    background: var(--color-primary);
+    border-radius: 10px;
+}
+
+.menu-icon {
+    margin-left: auto;
+    width: 40px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+    border: none;
+}
+
+.menu-line {
+    height: 3px;
+    background: #ccc;
+    border-radius: 2px;
+}
