@@ -87,7 +87,6 @@ input {
 .caja {
   background-color: var(--color--superficie);
   padding: 20px;
-  height: 70px;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -98,4 +97,10 @@ input {
   background-color: var(--color--superficie2);
   width: 70px;
   border-radius: 10px;
+
+}
+.cajita img{
+  width: 70px;
+ height: 70px;
+ border-radius: 10px;
 }
